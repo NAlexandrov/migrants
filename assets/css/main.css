@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'red_ring';
+    src: url("../font/redring-medium-webfont.eot");
+    src: url("../font/redring-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../font/redring-medium-webfont.woff") format("woff"), url("../font/redring-medium-webfont.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    border-top: 12px solid #008594;
+    border-bottom: 12px solid #008594;
+    background: transparent url("../img/top.jpg") no-repeat top center;
+    margin-bottom: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/top.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/top.jpg', sizingMethod='scale')";
+}
+
+h1 {
+    font-family: 'red_ring';
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #008594;
+    display: block;
+    background-color: #ffffff;
+    padding: 15px;
+    max-width: 735px;
+    text-align: center;
+    margin: 100px auto;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: .8;
+}
+
+h2 {
+    font-family: 'red_ring';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #008594;
+    border-bottom: 4px solid #008594;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: 'red_ring';
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #008594;
+    display: block;
+    background-color: #ffffff;
+    padding: 15px;
+    max-width: 735px;
+    text-align: center;
+    margin: 0 auto;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: .8;
+}
+
+p {
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+strong {
+    color: #008594;
+}
+
+a:link, a:visited {
+    color: #008594;
+    text-decoration: underline;
+}
+
+a:active, a:hover {
+    text-decoration: none;
+}
+
+.col-xs-2 {
+    max-width: 45px;
+}
+
+table {
+    margin-top: 20px;
+    border: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+
+td p {
+    padding: 0;
+    margin: 2px 0 0 0;
+}
+
+.circle {
+    width: 50px;
+}
+
+.circle>div {
+    text-align: center;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #008594;
+    font-size: 18px;
+    font-family: Arial;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.list {
+    padding-top: 10px;
+}
+
+.list p {
+    margin-top: 2px;
+}
+
+a.btn {
+    background-color: #008594;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "red_ring";
+    font-size: 20px;
+    padding: 15px 0 13px 0;
+    border: 2px solid #008594;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(150, 150, 150, 1);
+    width: 400px;
+    margin: 50px auto 100px;
+}
+
+a.btn:hover, a.btn:active {
+    color: #008594;
+    background-color: #ffffff;
+}
+
+a.btn-iphone {
+    font-size: 18px;
+    padding: 10px 0px 8px 0px;
+    width: 290px;
+}
+
+.more {
+    color: #008594;
+    cursor: help;
+}
+
+.popover {
+    font-family: Arial;
+    font-size: 13px;
+    max-width: 400px;
+}
+
+.popover-content a {
+    word-wrap: normal;
+    text-wrap: normal;
+}
+
+footer {
+    border-bottom: 12px solid #008594;
+    padding-bottom: 20px;
+}
