@@ -46,6 +46,7 @@ h2 {
     color: #008594;
     border-bottom: 4px solid #008594;
     margin-top: 40px;
+    line-height: 36px;
 }
 
 h3 {
@@ -159,6 +160,11 @@ a.btn-iphone {
     width: 290px;
 }
 
+a.top-btn {
+	opacity: 1.0;
+	margin: 30px auto 20px;
+}
+
 .more {
     color: #008594;
     cursor: help;
@@ -179,3 +185,7 @@ footer {
     border-bottom: 12px solid #008594;
     padding-bottom: 20px;
 }
+
+@media (min-width:1200px){.container{max-width:820px;}
+@media (min-width:992px){.container{max-width:820px;}
+@media (min-width:768px){.container{max-width:820px;}
